@@ -1,0 +1,130 @@
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.button {
+    border-radius: 10px;
+    background-color:#dddddd;
+    width: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 5px;
+}
+
+.header {
+        border: 2px solid black;
+        color: #000000;
+        background-color: #dddddd;
+        border-radius: 15px;
+        margin: 5px;
+}
+.header__Text {
+        text-align: center;
+}
+.navigation {
+    border: 2px solid black;;
+    border-radius: 15px;
+    background-color: #dddddd;
+    margin: 5px;
+}
+.navigation__list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.navigation__link {
+    text-decoration: none;
+    color: #ff5100;
+}
+.navigation__link:hover {
+    color: #2b34b0;
+}
+.aside {
+    float: right;
+    clear:none;
+    background-color: #dddddd;
+    border: 2px solid black;
+    border-radius: 15px;
+    position:relative;
+}
+.aside__menu {
+    list-style: none;
+    text-align: left; 
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.aside__color {
+    color:#000000;
+}
+.aside__textDecoration {
+    text-decoration: none;
+    color: #ff5100;
+}
+.aside__textDecoration:hover{
+    color: #2b34b0;
+}
+.article {
+        margin: 15px 15px 15px 15px;
+}
+.article__strong {
+    color:#474747;
+}
+.article__link {
+    text-decoration: none;
+    color: #ff5100;
+}
+.article__link:hover {
+    color: #2b34b0;
+}
+.figure {
+    box-shadow:#474747 ;
+}
+.figure__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 3px -3px 8px 1px #ED8931;
+    border-radius: 15px;
+}
+.table__container {
+    overflow-x: auto;
+}
+.table__caption {
+    caption-side: top;
+    text-align: center;
+}
+.table__row:nth-child(even) {
+    background-color: #eee;
+}
+.table__row:hover {
+    background-color: #c2c2c2;
+}
+.table__cell {
+    border: 2px solid black;
+}
+.table__cellColor {
+    background-color: #ff5100;
+}
+.table__cellRow {
+    background-color: #f08358e1;
+}
+.footer {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+.footer__text {
+    color: #ff5100;
+}

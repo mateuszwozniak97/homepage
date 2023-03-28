@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVD - Chemical Vapur Deposition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/article.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+    <button class="button">Włącz <span class="button__colorName">ciemny</span> motyw</button>
+    <header class="header">
+        <h1 class="header__Text">CVD - Chemical Vapour Deposition</h1>
+    </header>
+    <nav class="navigation">
+        <ol class="navigation__list">
+            <li>
+                <a class="navigation__link" href="#Wstep">Wstęp</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#RegulytechnologiiLPCVD(niskocisnienioweCVD)">LPCVD</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#PrzykladsystemuLPCVD">Przykład LPCVD</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#Cechycharakterystyczneurzadzenia">Charakterystyka</a>
+            </li>
+        </ol>
+    </nav>
+    <main>
+        <aside class="aside">
+            <ul class="aside__menu">
+                <li class="aside__color">
+                    Menu boczne
+                </li>
+                <li>
+                    <a class="aside__textDecoration" target="_blank"
+                        href="https://pl.wikipedia.org/wiki/Chemiczne_osadzanie_z_fazy_gazowej">CVD</a>
+                </li>
+                <li>
+                    <a class="aside__textDecoration" target="_blank" href="https://tiny.pl/w2knq">Inne metody CVD</a>
+                </li>
+                <li>
+                    <a class="aside__textDecoration" target="_blank"
+                        href="https://www.sciencedirect.com/topics/chemistry/chemical-vapour-deposition">Artykuły
+                        naukowe</a>
+                </li>
+            </ul>
+        </aside>
+        <article class="article" id="Wstep">
+            <h2>Wstęp</h2>
+            <p>Metoda obróbki cieplno-chemicznej materiałów.<br>Służy do nanoszenia cienkich powłok na obrabiany
+                materiał w celu
+                <strong class="article__strong">polepszenia albo zmiany właściwości fizycznych, chemicznych lub
+                    mechanicznych</strong>
+                powierzchni
+                obrabianego materiału.
+            </p>
+            <figure class="figure">
+                <img class="figure__photo"
+                    src="https://www.oerlikon.com/ecoma/files/CVD-Chemical_Vapor_Deposition.jpg?box_crop=448%2C252&max_h=360"
+                    alt="CVD - Chemiczne osadznie z fazy gazowej">
+                <figcaption>Rys.1 CVD system</figcaption>
+            </figure>
+            <p>Metoda polega na wprowadzaniu do komory reakcyjnej najczęściej gazowych substratów, gdzie na gorącym
+                podłożu
+                zachodzą odpowiednie reakcje chemiczne. Tradycyjne metody chemicznego osadzania z fazy gazowej wymagają
+                wysokich
+                temperatur koniecznych do zajścia pożądanych reakcji <b>(900 do 1100 °C lub nawet
+                    większych)</b> tworzenie się
+                warstw, co znacznie ogranicza zakres stosowania tych metod. Do otrzymania produktów reakcji używa
+                się różnych substratów gazowych i ciekłych zwanych prekursorami którymi mogą być wodorki, halogenki
+                (głównie
+                chlorki), karbonylki a także lotne związki metaloorganiczne, krzemoorganiczne i tym podobne. Prekursory
+                w formie
+                gazu lub pary doprowadza się do komory reaktora, <em>najczęściej za pomocą gazów nośnych obojętnych
+                    (np.argonu,
+                    helu)</em> lub takich, które mogą brać udział w reakcjach chemicznych prowadzących do powstania
+                warstw
+                (np.azotu, metanu, wodoru, amoniaku) lub mieszaniny tych gazów.
+            </p>
+            <section>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero et ratione iusto animi quidem molestiae, accusantium, fuga rem tempore eveniet dignissimos omnis? Cupiditate ad ullam mollitia porro libero natus ipsam.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nostrum obcaecati laudantium minima, quidem impedit atque blanditiis accusamus consectetur nemo error sit architecto, debitis vel quia dolores rem non recusandae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cupiditate ratione amet rem, commodi temporibus ullam! Facere consequuntur voluptatem fuga laboriosam temporibus esse ipsa eos ea rerum praesentium, inventore quasi?
+            </section>
+            <div class="table__container">
+                <table class="table">
+                    <caption class="table__caption">
+                        Podział metod CVD i ich ogólna charakterystyka
+                    </caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cellColor" scope="col"> Metoda</th>
+                        <th class="table__cell table__cellColor" scope="col"> Sposób nagrzewania</th>
+                        <th class="table__cell table__cellColor" scope="col"> Temperatura procesu, K</th>
+                        <th class="table__cell table__cellColor" scope="col"> Ciśnienie w komorze</th>
+                        <th class="table__cell table__cellColor" scope="col"> Atmosfery gazowe</th>
+                        <th class="table__cell table__cellColor" scope="col"> Rodzaj warstwy</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cellRow" scope="row"> APCVD</th>
+                        <td class="table__cell"> Grzanie oporowe</td>
+                        <td class="table__cell"> 1170 - 1220</td>
+                        <td class="table__cell"> Atmosferyczne</td>
+                        <td class="table__cell"> TiCl4 + H2 + N2</td>
+                        <td class="table__cell"> Ti (C5n5), TiN</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cellRow" scope="row"> LPCVD</th>
+                        <td class="table__cell"> Grzanie oporowe</td>
+                        <td class="table__cell"> 1150</td>
+                        <td class="table__cell"> 10 - 500 hPa</td>
+                        <td class="table__cell"> TiCl4 + H2 + N2</td>
+                        <td class="table__cell"> TiC, TiN, Ti(C5N)</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cellRow" rowspan="2"> PACVD</th>
+                        <td class="table__cell"> Grzanie w warunkach wyładowania jarzeniowego</td>
+                        <td class="table__cell"> 770 - 820</td>
+                        <td class="table__cell"> 3 - 13 hPa</td>
+                        <td class="table__cell"> TiCl4 + H2 + N2</td>
+                        <td class="table__cell"> TiN, warstwa kompozytowa azotowana + TiN</td>
+                    </tr>
+                    <tr class="table__rowF">
+                        <td class="table__cell"> Grzanie w warunkach wyładowania jarzeniowego</td>
+                        <td class="table__cell"> 720 - 820</td>
+                        <td class="table__cell"> 3 - 10 hPa</td>
+                        <td class="table__cell"> Ti (OC3H7)4 + H2 + N2</td>
+                        <td class="table__cell"> Warstwa typu Ti(O, C, N) lub kompozytowe azotowane + Ti (O, C, N) </td>
+                    </tr>
+                </table>
+            </div>
+            <a class="article__link" target="_blank" href="http://www.openaccesslibrary.com/2009/procesy.pdf">Więcej na
+                temat
+                procesów CVD (link otwiera się w nowej karcie)</a>
+        </article>
+        <article class="article" id="RegulytechnologiiLPCVD(niskocisnienioweCVD)">
+            <h2>Reguły technologii LPCVD (niskociśnieniowe CVD)</h2>
+            <p>Chemiczne osadzanie z fazy gazowej - <i>Chemical Vapour Deposition</i> (CVD) to ogólna nazwa dla grupy
+                procesów,
+                które można zdefiniować jako
+                osadzanie ciała stałego na ogrzewanej powierzchni w wyniku reakcji chemicznej w fazie gazowej. Proces
+                odbywa
+                się
+                w zakresie temperatur: 700 - 1000°C.
+            </p>
+        </article>
+        <article class="article" id="PrzykladsystemuLPCVD">
+            <h2>Przykład systemu LPCVD</h2>
+            <p>Zasada działania niskociśnieniowego układu CVD (LPCVD), w którym gazy reagujące (z prekursorów: gazowych,
+                ciekłych lub stałych) są dostarczane do komory reakcyjnej w odpowiednio określonej temperaturze i
+                ciśnieniu.
+            </p>
+            <figure>
+                <img class="figure__photo"
+                    src="https://www.oerlikon.com/ecoma/files/CVD-Example_of_a_LPCVD_system.jpg?max_w=1300"
+                    alt="Przykład systemu LPCVD">
+                <figcaption>Rys.2 Zasada działania układu CVD (LPCVD)</figcaption>
+            </figure>
+        </article>
+        <article class="article" id="Cechycharakterystyczneurzadzenia">
+            <h2> Cechy charakterystyczne urządzenia</h2>
+            <ul>
+                <li>doskonała jednorodność osadzanych powłok przy temperaturach do 1200 °C (700 °C, 800 °C lub 1200 °C),
+                </li>
+                <li>wielkość próbki do 200 mm,</li>
+                <li>blokada załadunku - szybka wymiana próbek,</li>
+                <li>specjalna konstrukcja zimnej ściany z równomiernym dostarczaniem prekursora,</li>
+                <li>opcjonalny system dostarczania źródła ciecz/ciało stałe do wzrostu MoS2, MoSe2 i innych.</li>
+            </ul>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="footer__text">Copyrights © 2023 MateuszW. Wszystkie prawa zastrzeżone</div>
+    </footer>
+</body>
+
+</html>

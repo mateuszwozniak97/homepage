@@ -1,0 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.dark {
+    color:#ffffff;
+    background-color: #000000b8;
+}
